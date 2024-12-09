@@ -9,7 +9,7 @@ public class UserEntityDtoMapper {
         User user = new User();
         user.setUsername(userSignUpDTO.getUserName());
         user.setPassword(userSignUpDTO.getPassword());
-        user.setPassword(userSignUpDTO.getEmail());
+        user.setEmail(userSignUpDTO.getEmail());
         return user;
     }
 }

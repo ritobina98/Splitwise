@@ -16,7 +16,7 @@ public class UserController {
     @Autowired
     private UserService userService;
 
-    @PostMapping("/user")
+    @PostMapping("/splitwiseuser")
     public ResponseEntity createUser(@RequestBody UserSignUpDTO userSignUpDTO){
         //validations
         signUpValidations(userSignUpDTO);
